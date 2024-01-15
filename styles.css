@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(234, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    margin: auto;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+select{
+    padding:2px;
+    margin-left: 10px;
+    border: 1.5px solid rgb(195, 53, 214);
+    border-radius: 4px;
+}
+label{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 8px;
+}
+input[type=text]{
+    border: 1.5px solid rgb(195, 53, 214);
+    padding: 2px;
+    border-radius: 4px;
+}
+.convert-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 15px;
+}
+.convert{
+    width: 15px;
+    border: 1.5px solid rgb(195, 53, 214);
+    border-radius: 100%;
+    padding:10px;
+}
+.convert:hover{
+    background-color: rgb(195, 53, 214);
+    transform: scale(1.1);
+    border: 2.5spx solid rgb(255, 255, 255);
+}
+.result{
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
